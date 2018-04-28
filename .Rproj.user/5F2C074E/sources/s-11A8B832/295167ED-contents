@@ -1,0 +1,5 @@
+options(servr.daemon = TRUE, blogdown.author = "Adriel Casellas")
+
+if (file.exists("~/.Rprofile")) {
+  base::sys.source("~/.Rprofile", envir = environment())
+}
